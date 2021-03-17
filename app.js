@@ -215,14 +215,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //add functionality to the button
     startBtn.addEventListener('click', () => {
+      // starts game
       if (timerId) {
         clearInterval(timerId)
         timerId = null
+        startBtn.innerHTML = 'Start'
+        // pauses game
       } else {
         draw()
         timerId = setInterval(moveDown, 1000)
         nextRandom = Math.floor(Math.random()*theTetrominoes.length)
         displayShape()
+        startBtn.innerHTML = 'Pause'
       }
     })
   

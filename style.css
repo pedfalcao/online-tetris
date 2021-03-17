@@ -68,4 +68,15 @@ h3 {
 
 #play-again-button {
   display: none;
+  width: 140px;
+}
+
+button {
+  background: grey;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 100px;
+  cursor: pointer;
 }
