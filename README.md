@@ -19,4 +19,4 @@ Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Usando como ba
 
 # Links úteis
 Jogue em: https://nifty-mahavira-cb88ce.netlify.app/ \
-Documentação: 
+Documentação: https://pedfalcao.medium.com/desenvolvendo-tetris-com-javascript-c1593d2e9507
