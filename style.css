@@ -1,10 +1,20 @@
 body {
-  background-color: rgb(187, 187, 238);
+  background-color: black;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 100px;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+.game-over {
+  color: red;
+  visibility: hidden;
 }
 
 .container {
@@ -18,13 +28,13 @@ h1 {
   display: flex;
 }
   
-  
 .grid {
   width: 200px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+  border: 1px solid white;
 }
 
 .grid div {
@@ -47,6 +57,8 @@ h1 {
   flex-wrap: wrap;
   background-color: black;
   margin-bottom: 50px;
+  border: 1px solid white;
+
 }
 
 .mini-grid div {

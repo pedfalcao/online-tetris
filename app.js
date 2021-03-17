@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //game over
     function gameOver() {
       if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-        scoreDisplay.innerHTML = 'end'
+        document.querySelector('.game-over').style.visibility = 'initial'
         clearInterval(timerId)
         startBtn.style.display = 'none'
         playAgainBtn.style.display = 'block';
