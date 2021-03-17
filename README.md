@@ -9,13 +9,13 @@ Tetris é um jogo electrônico lançado em junho de 1984 e que é muito popular 
                                                          
 # Equipe
 <ul>
-<li>Pedro Falcão</li>
-<li>Victoria Pantoja</li>
-<li>Vinícius Silva</li>
+<li>Pedro Falcão ([paaf2@cin.ufpe.br](mailto:paaf2@cin.ufpe.br))</li>
+<li>Victoria Pantoja ([vpa@cin.ufpe.br](mailto:vpa@cin.ufpe.br))</li>
+<li>Vinícius Silva ([vhs@cin.ufpe.br](mailto:vhs@cin.ufpe.br))</li>
 </ul>  
 
 # Desafio
-Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Usando como base o vídeo "Code Tetris: JavaScript Tutorial for Beginners", tutorial criado por **kubowania** e disponível através do **FreeCodeCamp**
+Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Usando como base o vídeo "Code Tetris: JavaScript Tutorial for Beginners", tutorial criado por [kubowania](https://github.com/kubowania/Tetris-Basic) e disponível através do [FreeCodeCamp](https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game/)
 
 # Links úteis
 Jogue em: https://nifty-mahavira-cb88ce.netlify.app/ \
