@@ -18,5 +18,5 @@ Tetris é um jogo electrônico lançado em junho de 1984 e que é muito popular 
 Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Usando como base o vídeo "Code Tetris: JavaScript Tutorial for Beginners", tutorial criado por **kubowania** e disponível através do **FreeCodeCamp**
 
 # Links úteis
-Jogue em: https://nifty-mahavira-cb88ce.netlify.app/
+Jogue em: https://nifty-mahavira-cb88ce.netlify.app/ \
 Documentação: 
