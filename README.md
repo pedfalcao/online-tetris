@@ -9,9 +9,9 @@ Tetris é um jogo electrônico lançado em junho de 1984 e que é muito popular 
                                                          
 # Equipe
 <ul>
-<li>Pedro Falcão ([paaf2@cin.ufpe.br](mailto:paaf2@cin.ufpe.br))</li>
-<li>Victoria Pantoja ([vpa@cin.ufpe.br](mailto:vpa@cin.ufpe.br))</li>
-<li>Vinícius Silva ([vhs@cin.ufpe.br](mailto:vhs@cin.ufpe.br))</li>
+<li>Pedro Falcão (paaf2)</li>
+<li>Victoria Pantoja (vpa)</li>
+<li>Vinícius Silva (vhs)</li>
 </ul>  
 
 # Desafio
