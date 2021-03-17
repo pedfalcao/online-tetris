@@ -6,9 +6,7 @@ Tetris é um jogo electrônico lançado em junho de 1984 e que é muito popular 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/22911305/111398733-c867c580-86a2-11eb-8d25-9f729cdaaf39.png?w=100">
 </p>
-
-# Jogo online
-Link: https://nifty-mahavira-cb88ce.netlify.app/                                                          
+                                                         
 # Equipe
 <ul>
 <li>Pedro Falcão</li>
@@ -19,4 +17,6 @@ Link: https://nifty-mahavira-cb88ce.netlify.app/
 # Desafio
 Recriar uma versão do jogo Tetris usando CSS, HTML e Javascript. Usando como base o vídeo "Code Tetris: JavaScript Tutorial for Beginners", tutorial criado por **kubowania** e disponível através do **FreeCodeCamp**
 
-# Nossas modificações
+# Links úteis
+Jogue em: https://nifty-mahavira-cb88ce.netlify.app/
+Documentação: 
