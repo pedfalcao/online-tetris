@@ -15,6 +15,7 @@ h3 {
 .game-over {
   color: red;
   visibility: hidden;
+  font-size: 1.5rem;
 }
 
 .container {
