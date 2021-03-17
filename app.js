@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let squares = Array.from(document.querySelectorAll('.grid div'))
     const scoreDisplay = document.querySelector('#score')
     const startBtn = document.querySelector('#start-button')
+    const playAgainBtn = document.querySelector('#play-again-button')
     const width = 10
     let nextRandom = 0
     let timerId
@@ -55,9 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     let currentPosition = 4
     let currentRotation = 0
-  
-    console.log(theTetrominoes[0][0])
-  
+    
     //randomly select a Tetromino and its first rotation
     let random = Math.floor(Math.random()*theTetrominoes.length)
     let current = theTetrominoes[random][currentRotation]
@@ -207,7 +206,13 @@ document.addEventListener('DOMContentLoaded', () => {
         displaySquares[displayIndex + index].style.backgroundColor = colors[nextRandom]
       })
     }
-  
+
+    function reloadPage() {
+      location.reload()
+    }
+
+    playAgainBtn.addEventListener('click', reloadPage);
+
     //add functionality to the button
     startBtn.addEventListener('click', () => {
       if (timerId) {
@@ -246,7 +251,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
         scoreDisplay.innerHTML = 'end'
         clearInterval(timerId)
+        startBtn.style.display = 'none'
+        playAgainBtn.style.display = 'block';
       }
     }
-  
   })
