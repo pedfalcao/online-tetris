@@ -1,0 +1,105 @@
+body {
+  background-image: url("./image/background.png");
+}
+
+h1 {
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+  margin-bottom: 100px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Syne Mono', monospace;
+  color: white;
+}
+
+.game-over {
+  font-family: 'Syne Mono', monospace;
+  color: red;
+  visibility: hidden;
+  font-size: 1.5rem;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.game-container {
+  display: flex;
+}
+  
+.grid {
+  border-radius: 20px;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 5px solid white;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.game-detail {
+  margin-left: 50px;
+}
+
+.mini-grid {
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  margin-bottom: 50px;
+  border: 3px solid white;
+
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+#play-again-button {
+  display: none;
+  width: 140px;
+}
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color;
+  color: #ffffff;
+  border-color: #ffffff;
+  min-width: 85px;
+}
+
+button:hover{
+  background: #0000007e;
+}
